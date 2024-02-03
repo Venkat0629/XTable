@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
 .App-logo {
@@ -36,3 +41,28 @@
     transform: rotate(360deg);
   }
 }
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+  border: 2px solid #dddddd;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #dddddd;
+}
+
+tr {
+  padding: 8px 0;
+}
+
